@@ -1,35 +1,98 @@
 <!DOCTYPE html>
 <html lang="ua">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Онлайн-школа французької мови</title>
+        <title>Онлайн-школа французької мови</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="util.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
+<style>
+body  {
+  background-image: url("bg01.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+</style>
 <body>
-<h2>
-Дорослим та дітям    
-</h2>
+		<div class="w-full flex-w flex-sb-m">
+			<div class="s1-txt1 m-l-30 m-r-30 m-t-10 m-b-10">
+				<h2><i>Незабаром - Онлайн-школа французької мови для дорослих та дітей.</i></h2>
+			</div>
+
+			<div class="flex-w cd100 p-t-15 p-b-15 p-r-36">
+				<div class="flex-w flex-b m-r-22 m-t-8 m-b-8">
+					<span class="l1-txt1 wsize1 days">35</span>
+					<span class="m1-txt1 p-b-2">Days</span>
+				</div>
+
+				<div class="flex-w flex-b m-r-22 m-t-8 m-b-8">
+					<span class="l1-txt1 wsize1 hours">17</span>
+					<span class="m1-txt1 p-b-2">Hr</span>
+				</div>
+
+				<div class="flex-w flex-b m-r-22 m-t-8 m-b-8">
+					<span class="l1-txt1 wsize1 minutes">50</span>
+					<span class="m1-txt1 p-b-2">Min</span>
+				</div>
+
+				<div class="flex-w flex-b m-r-22 m-t-8 m-b-8">
+					<span class="l1-txt1 wsize1 seconds">39</span>
+					<span class="m1-txt1 p-b-2">Sec</span>
+				</div>
+			</div>
+
+		</div> 
+
+		<div class="w-full flex-w flex-sb-m">
+<div class="flex-w flex-b s2-txt1 m-l-30 m-r-30 m-t-10 m-b-10">
 <ul>
     <li>Вивчайте французьку віч-на-віч з учителем</li>
     <li>Онлайн- курси французької мови</li>
     <li>Навчання на інтерактивній платформі</li>
     <li>Заняття в будь-який час і в будь-якому місці</li>
 </ul>
-<a href="https://docs.google.com/document/u/0/">Залишіть вашу заявку тут</a>
+</div>
+
+			<div class="flex-w flex-b s2-txt1 m-l-30 m-t-10 m-b-10 m-r-150">
 <p>
-<b>Часті питання:</b>
+<b>Часті питання:</b><br><br>
 </p>
 <p>
 Як мені зрозуміти який формат навчання підійде?<br>
 Ви можете залишити заявку на безкоштовну консультацію на нашому сайті. Наші менеджери зв'яжуться з вами по телефону і підберуть формат навчання, який вам підходить.
+<br><br>
 </p>
 <p>
 Як відбуваються індивідуальні заняття?<br>
 Ви займаєтесь удвох із викладачем на інтерактивній платформі. Викладач підбирає відповідну вам програму. На платформі є всі необхідні вправи, а також вбудований відеозв'язок та тренажер для запам'ятовування слів. Для навчання нічого не потрібно докуповувати. Якщо ви не впевнені, чи підійде цей формат, ви можете записатися на пробний урок. Залишайте заявку на нашому сайті, зв'яжеться з вами менеджер, щоб уточнити подробиці.
+<br><br>
 </p>
 <p>
 Як відбувається навчання на онлайн-курсах?<br>
 Ви самостійно проходите матеріал за вибраним мовним рівнем. Кожен урок складається з відео-лекції з теми та кількох десятків інтерактивних завдань на відпрацювання матеріалу. Курс можна активувати протягом 6 місяців після покупки, цілий рік після активації курсу ви зможете отримувати докладний фідбек викладача з виконаних вправ. При виборі тарифу PRO вам також будуть доступні 6 індивідуальних уроків з викладачем, 4 speaking sessions, розмовний клуб та фінальний іспит. Якщо ви не впевнені, чи підійде цей формат, ви можете залишити заявку на демо-доступ.    
 </p>
+			</div>
+			<div class="s2-txt1 m-l-30 m-r-100 m-t-10 m-b-10">
+<a href="https://docs.google.com/document/u/0/">Залишіть вашу заявку тут</a>
+</div>
+</div>		
+
+<!--scripts-->
+	<script src="jquery-3.2.1.min.js"></script>
+	<script src="countdowntime.js"></script>
+	<script>
+		$('.cd100').countdown100({
+			/*Set Endtime here*/
+			/*Endtime must be > current time*/
+			endtimeYear: 0,
+			endtimeMonth: 0,
+			endtimeDate: 60,
+			endtimeHours: 23,
+			endtimeMinutes: 0,
+			endtimeSeconds: 0,
+			timeZone: "" 
+		});
+	</script>
 </body>
 </html>
